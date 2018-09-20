@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/leave_item"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/line_zero"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_zero"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/people_blue"/>
+
+        <TextView
+            android:id="@+id/content_zero"
+            android:text="请假申请  2018-09-12"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_one"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_one"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/document_blue"/>
+
+        <TextView
+            android:id="@+id/content_one"
+            android:text="调休（2018-09-11 到 2018-09-11）共计1天"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_two"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_two"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/time_blue"/>
+
+        <TextView
+            android:id="@+id/content_two"
+            android:text="审批通过"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
