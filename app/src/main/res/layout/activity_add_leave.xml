@@ -15,14 +15,12 @@
 
         <TextView
             android:text="开始日期"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/start_data"
             android:hint="点击选择开始日期"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -38,14 +36,12 @@
         android:layout_height="0dp">
         <TextView
             android:text="开始时间"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/start_time"
             android:hint="点击选择开始时间"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -60,14 +56,12 @@
         android:layout_height="0dp">
         <TextView
             android:text="结束日期"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/end_date"
             android:hint="点击选择结束日期"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -82,14 +76,12 @@
         android:layout_height="0dp">
         <TextView
             android:text="结束时间"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/end_time"
             android:hint="点击选择结束时间"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -104,14 +96,12 @@
         android:layout_height="0dp">
         <TextView
             android:text="合计天数"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/total_data"
             android:hint="天"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -126,14 +116,12 @@
         android:layout_height="0dp">
         <TextView
             android:text="请假类型"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/leave_type"
             android:hint="点击选择请假类型"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"

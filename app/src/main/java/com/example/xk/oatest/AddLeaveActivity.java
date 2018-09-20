@@ -1,9 +1,7 @@
 package com.example.xk.oatest;
 
-import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,13 +9,11 @@ import android.view.View;
 import android.widget.Button;
 import android.app.Activity;
 import android.widget.DatePicker;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
 import java.util.Calendar;
 
-import static android.R.style.Theme;
 
 public class AddLeaveActivity extends AppCompatActivity implements TextView.OnClickListener {
 
@@ -28,15 +24,10 @@ public class AddLeaveActivity extends AppCompatActivity implements TextView.OnCl
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_leave);
 
-        Button back = (Button) findViewById(R.id.title_back);
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        TextView back = (TextView) findViewById(R.id.title_back);
+        back.setOnClickListener(this);
 
-        Button add = (Button) findViewById(R.id.title_add);
+        TextView add = (TextView) findViewById(R.id.title_add);
         add.setText("");
 
         Button leaveSubmit = (Button) findViewById(R.id.leave_submit);
@@ -67,6 +58,9 @@ public class AddLeaveActivity extends AppCompatActivity implements TextView.OnCl
     @Override
     public void onClick(View v) {
         switch (v.getId()){
+            case R.id.title_back:
+                finish();
+                break;
             case R.id.start_data:
                 this.showDatePickerDialog(AddLeaveActivity.this,android.R.style.Theme_Material_Light_Dialog_Alert,(TextView) v,Calendar.getInstance());
                 break;

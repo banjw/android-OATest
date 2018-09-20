@@ -22,7 +22,6 @@
             android:id="@+id/content_zero"
             android:text="请假申请  2018-09-12"
             android:textColor="#000000"
-            android:textSize="18dp"
             android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -45,7 +44,6 @@
         <TextView
             android:id="@+id/content_one"
             android:text="调休（2018-09-11 到 2018-09-11）共计1天"
-            android:textSize="18dp"
             android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -69,7 +67,6 @@
         <TextView
             android:id="@+id/content_two"
             android:text="审批通过"
-            android:textSize="18dp"
             android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

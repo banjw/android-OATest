@@ -15,14 +15,12 @@
 
         <TextView
             android:text="当前状态"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/leave_detail_status"
             android:hint="审批通过"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -39,14 +37,12 @@
 
         <TextView
             android:text="申请时间"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/start_data"
             android:hint="2018-09-12"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -62,14 +58,12 @@
         android:layout_height="0dp">
         <TextView
             android:text="请假类型"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/start_time"
             android:hint="调休"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -84,14 +78,12 @@
         android:layout_height="0dp">
         <TextView
             android:text="起始时间"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/end_date"
             android:hint="2018-09-12 12:30"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -106,14 +98,12 @@
         android:layout_height="0dp">
         <TextView
             android:text="结束时间"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/end_time"
             android:hint="2018-09-12 18:30"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -128,14 +118,12 @@
         android:layout_height="0dp">
         <TextView
             android:text="合计天数"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/total_data"
             android:hint="1（天）"
-            android:textSize="18dp"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -149,14 +137,12 @@
         android:layout_height="wrap_content">
         <TextView
             android:text="请假事由"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/leave_type"
             android:text="    由于老家路途远，做火车需要一天，端午节期间想多请假2天，希望组织上(或者公司)能给与本人假期，本人在端午节归来后一定以更加饱满的热情迎接新的挑战，以更加高涨的情绪投入到工作当中，并且处理好请假期间的事物，希望组织上给予批准!"
-            android:textSize="18dp"
             android:maxLines="7"
             android:gravity="center"
             android:layout_weight="1"
@@ -178,7 +164,6 @@
 
         <TextView
             android:text="审批记录"
-            android:textSize="18dp"
             android:textColor="#fff"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -203,7 +188,6 @@
             android:id="@+id/content_zero"
             android:text="某某领导      请假初审       审批通过"
             android:textColor="#000000"
-            android:textSize="18dp"
             android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -226,7 +210,6 @@
         <TextView
             android:id="@+id/content_one"
             android:text="时间：2018-09-12 11:04:08"
-            android:textSize="18dp"
             android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -250,7 +233,6 @@
         <TextView
             android:id="@+id/content_two"
             android:text="意见：同意"
-            android:textSize="18dp"
             android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

@@ -6,15 +6,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemClickListener{
+public class MainActivity extends AppCompatActivity implements TextView.OnClickListener, AdapterView.OnItemClickListener{
 
     private static final String TAG = "MainActivity";
 
@@ -31,8 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             actionBar.hide();
         }
 
-        Button back = (Button) findViewById(R.id.title_back);
-        Button add = (Button) findViewById(R.id.title_add);
+        TextView back = (TextView) findViewById(R.id.title_back);
+        TextView add = (TextView) findViewById(R.id.title_add);
 
         back.setOnClickListener(this);
         add.setOnClickListener(this);
@@ -55,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    public void onClick(View v) {//按钮的点击事件
+    public void onClick(View v) {
         Intent intent = null;
         switch (v.getId()){
             case R.id.title_back:
@@ -69,7 +68,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             default:
                 break;
         }
-        startActivity(intent);
+        if(null != intent){
+            startActivity(intent);
+        }
     }
 
     @Override
